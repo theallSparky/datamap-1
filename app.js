@@ -1,4 +1,4 @@
-const canvas = select("canva");
+const canvas = d3.select(".canva");
 
 let dataArray = [4, 15, 34];
 
