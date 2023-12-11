@@ -10,10 +10,10 @@ const svg = canvas.select("svg");
 const rect = svg.selectAll("rect");
 
 rect
-  .attr("width", 24)
   .data(dataArray)
   .enter()
   .append("rect")
+  .attr("width", 24)
   .attr("fill", "orange")
   .attr("height", function (d) {
     return d * 3;
