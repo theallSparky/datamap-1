@@ -17,7 +17,9 @@ rect
   .enter()
   .append("rect")
   .attr("width", 24)
-  .attr("fill", "orange")
+  .attr("fill", function (d) {
+    return d.fill;
+  })
   .attr("height", function (d) {
     return d.height * 2;
   })
