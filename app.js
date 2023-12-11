@@ -1,6 +1,6 @@
 const canvas = d3.select(".canva");
 
-let dataArray = [4, 15, 34];
+let dataArray = [4, 25, 34];
 
 // const svg = canvas.append("svg").attr("width", 600).attr("height", 600);
 
@@ -14,8 +14,11 @@ rect
   .data(dataArray)
   .attr("fill", "orange")
   .attr("height", function (d) {
-    return d * 2;
+    return d * 3;
   })
   .attr("x", function (d, i) {
     return i * 25;
+  })
+  .attr("y", function (d, i) {
+    return 100 - d * 3;
   });
