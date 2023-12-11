@@ -2,11 +2,8 @@ const canvas = d3.select(".canva");
 
 let dataArray = [4, 25, 34, 123, 43];
 
-// const svg = canvas.append("svg").attr("width", 600).attr("height", 600);
+const svg = canvas.append("svg").attr("width", 600).attr("height", 600);
 
-const svg = canvas.select("svg");
-
-// const rect = svg.append("rect");
 const rect = svg.selectAll("rect");
 
 rect
