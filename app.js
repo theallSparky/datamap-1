@@ -6,6 +6,7 @@ let dataArray = [
   { width: 25, height: 44, fill: "orange" },
   { width: 25, height: 124, fill: "green" },
   { width: 25, height: 12, fill: "gray" },
+  { width: 25, height: 32, fill: "red" },
 ];
 
 const svg = canvas.append("svg").attr("width", 600).attr("height", 600);
