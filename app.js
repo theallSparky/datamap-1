@@ -16,11 +16,11 @@ rect
   .attr("width", 24)
   .attr("fill", "orange")
   .attr("height", function (d) {
-    return d * 3;
+    return d * 2;
   })
   .attr("x", function (d, i) {
     return i * 25;
   })
   .attr("y", function (d, i) {
-    return 100 - d * 3;
+    return 100 - d * 2;
   });
