@@ -13,6 +13,8 @@ const svg = canvas.append("svg").attr("width", 600).attr("height", 600);
 
 const rect = svg.selectAll("rect");
 
+d3.json("https://jsonplaceholder.typicode.com/todos/1");
+
 rect
   .data(dataArray)
   .enter()
