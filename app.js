@@ -30,6 +30,6 @@ d3.json("text.json").then((data) => {
       return i * 25;
     })
     .attr("y", function (d, i) {
-      return 100 - d.height * 2;
+      return 200 - d.height * 2;
     });
 });
